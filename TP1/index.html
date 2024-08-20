@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Practico 1</title>
+    <style>
+        table{
+            width: 10%;
+            border-collapse: collapse;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Estructura Basica -->
+    <header id="estructura">
+        <h1>1. Estructura básica del documento HTML</h1>
+        <p>Este documento HTML tiene una estructura básica que incluye la declaración de DOCTYPE, etiquetas de metadatos y un título.</p>
+    </header>
+
+    <!-- Encabezados y propiedades de texto -->
+    <section>
+        <h1>2. Encabezados y propiedades de texto</h1>
+        <h2><span style="font-weight: bold;">Este es un encabezado de tipo h2 en negrita usando atributos "style"</span></h2>
+        <h3><span style="font-style: italic;">Este es un encabezado de tipo h3 en cursiva usando atributos "style"</span></h3>
+        <h4><span style="background-color: yellow;">Este es un encabezado de tipo h4 resaltado usando atributos "style"</span></h4>
+        <h5>Este es un encabezado de tipo h5</h5>
+        <h6>Este es un encabezado de tipo h6</h6>
+    </section>
+
+    <!-- Divisiones y agrupación -->
+    <section>
+        <h1>3. Divisiones y agrupación de contenidos</h1>
+        
+        <article>
+            <h2>Sección 1</h2>
+            <p>Contenido de la primera sección agrupada en un <code>div</code>.</p>
+        </article>
+        
+        <article>
+            <h2>Sección 2</h2>
+            <p>Contenido de la segunda sección agrupada en un <code>div</code>.</p>
+        </article>
+    </section>
+
+    <!-- Enlaces y listas -->
+    <section>
+        <h1>4. Enlaces y listas</h1>
+        <p>Visita nuestro <a href="https://www4.frm.utn.edu.ar/" target="_blank">sitio web</a> para más información.</p>
+
+        <nav>
+            <p>Enlaces internos:</p>
+            <ul>
+                <li><a href="#estructura">Ir a Estructura</a></li>
+                <li><a href="#multimedia">Ir a Multimedia</a></li>
+                <li><a href="#formulario">Ir a Formulario</a></li>
+            </ul>
+        </nav>
+
+        <p>Lista desordenada:</p>
+        <ul>
+            <li>Primer ítem de una lista desordenada</li>
+            <li>Segundo ítem de una lista desordenada</li>
+        </ul>
+
+        <p>Lista ordenada:</p>
+        <ol>
+            <li>Primer ítem de una lista ordenada</li>
+            <li>Segundo ítem de una lista ordenada</li>
+        </ol>
+    </section>
+
+    <!-- Elementos Multimedia -->
+    <section id="multimedia">
+        <h1>5. Elementos multimedia</h1>
+        <img src="https://www.adslzone.net/app/uploads-adslzone.net/2019/04/borrar-fondo-imagen-930x487.jpg" width="300px" alt="Es una imagen">
+        <video src="https://video-previews.elements.envatousercontent.com/5b3b6876-9689-4cfe-9692-1cf061a156f6/watermarked_preview/watermarked_preview.mp4" controls width="200px" height="200px" alt="Es un video"></video>
+        <audio src="https://download.blender.org/peach/trailer/trailer_1080p.ogg" controls></audio>
+    </section>
+
+    <!-- Tablas -->
+    <section>
+        <h1>6. Tablas</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Columna 1</th>
+                    <th>Columna 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Dato 1</td>
+                    <td>Dato 2</td>
+                </tr>
+                <tr>
+                    <td>Dato 3</td>
+                    <td>Dato 4</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Formularios -->
+    <section id="formulario">
+        <h1>7. Formularios</h1>
+        <form>
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input id="nombre" type="text" placeholder="Ingrese su nombre">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input id="email" type="email" placeholder="example@correo.com">
+            </div>
+            <div>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" placeholder="Escribe tu mensaje aquí..."></textarea>
+            </div>
+            <div>
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <p>Trabajo Práctico 1.</p>
+    </footer>
+</body>
+</html>
