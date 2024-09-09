@@ -1,0 +1,19 @@
+/* Estilo para el campo de texto cuando está deshabilitado */
+input:disabled {
+  background-color: #e0e0e0;
+  cursor: not-allowed;
+}
+
+/* Estilo para el campo de texto cuando está habilitado */
+input:hover {
+  background-color: #f0f0f0;
+}
+
+#punto9-1 {
+  display: inline-block;
+}
+
+#punto9-1 div, #punto9-1 input {
+  display: inline-block;
+  vertical-align: middle; /* Para asegurar que estén alineados verticalmente */
+}
